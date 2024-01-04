@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lightly-HTML-Project</title>
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <script type="text/javascript" src="js/LotteryDraw.js"></script>
+    <script type="text/javascript"></script>
+</head>
+
+<body class="ck-wheel">
+        <img id="setting" width="25" height="25" type="button" onclick="go_settings()" src="./src/settings.png">
+        </img>
+        <div class="lottery-Main" id="lotteryMain">
+            <div class="wheel">
+                <canvas class="item" id="myCanvas" width="1600px" height="1600px"></canvas>
+                <img class="pointer" type="button" onclick="start()" src="./src/wheel-pointer.png" />
+            </div>
+        </div>
+        <canvas id="canvas" width="1600px" height="1600px"></canvas>
+
+    <!-- <canvas id="myCanvas" width="1000" height="500">
+        <script type="text/javascript"></script>
+    </canvas> -->
+    <!-- <button id="btn" width="1000" height="500" onclick="start()" value="抽奖">
+    <script type="text/javascript" ></script>
+</button> -->
+    <!-- <button type="button" class="button yellow" onclick="start()">抽奖</button> -->
+</body>
+
+</html>

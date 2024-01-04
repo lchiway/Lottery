@@ -1,0 +1,43 @@
+.button.yellow{
+    width: 200px;
+    height: 100px;
+    font-size: 50px;
+    margin-left: 150px;
+    border:1px solid #d2a000;
+    box-shadow: 0 1px 2px #fedd71 inset,0 -1px 0 #a38b39 inset,0 -2px 3px #fedd71 inset;
+background: -webkit-linear-gradient(top,#fece34,#d8a605);
+background: -moz-linear-gradient(top,#fece34,#d8a605);
+background: linear-gradient(top,#fece34,#d8a605);
+}
+
+.lottery-Main{
+    top:100rem;
+}
+.ck-wheel{
+    width: 1600px;
+    height: 1600px;
+     background:url(../src/balloon@2x.png) no-repeat left top;
+     background-attachment: scroll;
+     background-size: 100% 100%;
+ }
+ .wheel{
+     display:block;
+     width:58.64rem;
+     height:58.64rem;
+     position:relative;
+     background-image:url(../src/wheel-bg.png);
+     background-size:100% 100%;
+     margin: 0 auto;
+     top:8rem;
+ }
+ img.pointer{
+     position:absolute;
+     width: 13.5rem;
+     height: 14rem;
+     left: 22.7rem;
+     top: 22.2rem;
+ }
+ #wheelCanvas{
+     width:6.64rem;
+     height:6.64rem;
+ }
